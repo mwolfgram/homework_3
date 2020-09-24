@@ -74,7 +74,7 @@ td{
 
 tr{
   -webkit-transition: background-color 0.5s ease;
-  transition: backgorund-color 0.5s ease;
+  transition: background-color 0.5s ease;
 }
 tr:nth-child(even){
   background-color: #D1D1D1;
@@ -85,7 +85,7 @@ tr:hover{
 }
 
 *:focus{
-  border: 3px dasged #417243
+  border: 3px dashed #417243
 }
 
 thead tr:first-child th:first-child{
