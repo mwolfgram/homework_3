@@ -63,7 +63,6 @@ table{
 
 .rowhead{
   border-top: 2px solid #000000;
-  border-right: 2px solid #000000;
 }
 
 td{
@@ -78,6 +77,11 @@ tr{
 }
 tr:nth-child(even){
   background-color: #D1D1D1;
+}
+
+}
+tr:nth-child(odd){
+  background-color: transparent;
 }
 
 tr:hover{
@@ -104,13 +108,11 @@ tbody tr:last-child td:last-child {
   border-bottom-right-radius: 10px;
 }
 
-td{
-  padding: 15px;
-
-}
 
 footer{
   bottom: 0;
+  right: 0;
+  left: 0;
   width:100%;
   background:#000000;
   text-align:center;
