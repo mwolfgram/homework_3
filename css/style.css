@@ -15,6 +15,9 @@ body{
   font-family: 'Andika', sans-serif;
   background-size: cover ;
   background-position: center;
+  background-color: #DDDDDD;
+  background-image: url("../images/pigeon-background.JPEG");
+  background-repeat: no-repeat;
 }
 
 main{
@@ -24,6 +27,8 @@ main{
 h1{
   color: #c12258;
   font-size: 2em;
+  line-height: 2;
+  text-align: center; 
 }
 
 caption{
@@ -52,7 +57,7 @@ table{
 }
 
 td{
-  
+
 }
 
 tr{
@@ -71,4 +76,3 @@ footer{
   text-align:center;
   color: #FFFFFF;
 }
-
