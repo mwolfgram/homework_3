@@ -28,7 +28,7 @@ h1{
   color: #c12258;
   font-size: 2em;
   line-height: 2;
-  text-align: center; 
+  text-align: center;
 }
 
 caption{
@@ -36,28 +36,40 @@ caption{
 }
 
 p{
-
+  padding-top: 15px;
 }
 
 a{
-
+  font-size: 16px'
+  color: #B21F50;
+  text-decoration: underline wavy;
 }
 
 table{
     border: 2px solid #000000;
+    border-collapse: separate;
+    border-radius: 10px;
+    margin: 0 auto;
 }
 
 .colhead{
   background-color: #7e0830;
   color: #FFFFFF;
+  padding: 10px;
+  vertical-align: middle;
+  min-width: 125px;
+  text-transform: uppercase;
 }
 
 .rowhead{
-
+  border-top: 2px solid #000000;
+  border-right: 2px solid #000000;
 }
 
 td{
-
+  padding: 10px;
+  border-top: 2px solid #000000;
+  text-align: center;
 }
 
 tr{
