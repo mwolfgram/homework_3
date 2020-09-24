@@ -40,7 +40,7 @@ p{
 }
 
 a{
-  font-size: 16px'
+  font-size: 16px;
   color: #B21F50;
   text-decoration: underline wavy;
 }
@@ -114,6 +114,7 @@ tbody tr:last-child th:last-child {
 
 td{
   padding: 15px;
+
 }
 
 footer{
